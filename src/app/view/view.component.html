@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Drone Operation:</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <label for="channelselect">Antenna Selection</label>
+      <select class="form-control" id="channelselect"  (change)="onChannelChange()">
+        <option>Select Channel</option>
+        <option>Channel 1</option>
+        <option>Channel 2 </option>
+      </select>
+      <hr />
+      <h5>Drone Deployment:</h5>
+      <button class="btn btn-primary btn-block" type = "button" (click) = "onDeployTransmitter()"> Deploy Transmitter Drone </button>
+      <button class="btn btn-primary btn-block" type = "button" (click) = "onDeployReceiver()"> Deploy Receiver Drone </button>
+      <button class="btn btn-primary btn-block" type = "button" (click) = "onRecallTransmitter()"> Recall Transmitter Drone </button>
+    </div>
+    <div class="col-md-9">
+      <canvas id="displayCanvas" width="800" height="600"></canvas>
+    </div>
+
+
+  </div>
+</div>
