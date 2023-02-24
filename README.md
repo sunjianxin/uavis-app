@@ -1,3 +1,6 @@
+# Uavis
+This is a full-stack application for wireless signal visualization between UAVs. Frontend is AngularJS while the backend is Flask. MQTT is used for data exchange among entities. Try the website [here](https://uavis-8fb21.web.app/) with user email: "mcv@unl.edu", and password "nexttunl".
+
 # UavisApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
